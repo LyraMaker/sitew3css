@@ -1,0 +1,104 @@
+
+/*
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+p,a,ul,li,ol,pre{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#site-titulo{
+    font-size: 35pt;
+    text-transform: uppercase;
+}
+
+#site-descricao{
+    margin-top: -25px;
+    font-size:18pt;
+}
+
+#titulo-menu{
+    font-size: 18pt;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#nav-icon{
+    font-size: 18pt;
+    font-weight: 700;
+}
+.op-menu{
+    font-weight: bold;
+}
+
+#site-topo:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#site-servicos{
+    padding: 100px 0px 150px 0px;
+}
+
+#site-servicos .w3-card-4{
+    min-height: 400px;
+}
+
+.servico-icone{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 40pt;
+}
+
+.sobre-imagem{
+    max-width: 500px;
+}
+
+.opac{
+    position: relative;
+    padding: 80px 0px 30px 0px ;
+    background-image: url("imagem/universe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opac:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    top:0;
+    left: 0;
+}
+
+.thumb{
+    height: 300px;
+    width: 100%;
+    border-radius:8px 8px 0px 0px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.artigo{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
